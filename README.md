@@ -1,9 +1,6 @@
-# React + Vite
+# Satori Prueba Técnica lvl1 MarcoAraoz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio incluye desarrollo basado en React, Jsx, Bootstrap, Fetch
+Se consumen endpoints desde la API de Rick y Morty con la finalidad de demostrar conocimientos en la implementación de una interface de consulta de información
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# SatoriTechPruebalvl1MarcoAraoz
+Node v- 18.18.0
