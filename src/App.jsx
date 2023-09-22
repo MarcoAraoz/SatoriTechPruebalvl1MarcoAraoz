@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 
 function App() {
   return (
+   /* Setting up the routing for the application using React Router. */
     <Router>
       <div className="App">
         <Navbar />

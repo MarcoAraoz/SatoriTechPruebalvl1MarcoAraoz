@@ -3,7 +3,6 @@ import Species from "./category/Species";
 import Status from "./category/Status";
 
 const Filter = ({
-  // eslint-disable-next-line react/prop-types
   pageNumber,
   updatePageNumber,
   updateStatus,

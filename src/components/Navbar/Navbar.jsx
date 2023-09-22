@@ -10,16 +10,14 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
       <div className="container">
         <Link to="/" className="navbar-brand fs-3 ubuntu">
-          Rick &  <span className="text-primary">Morty</span>
+        <img
+            src="https://www.pngall.com/wp-content/uploads/4/Rick-And-Morty.png"
+            alt="Rick & Morty"
+            className="mr-12"
+            style={{ width: "10%", height: "10%" }}
+          />
+          Rick &  <span className="text-primary">Morty</span> API
         </Link>
-        <style >{`
-          button[aria-expanded="false"] > .close {
-            display: none;
-          }
-          button[aria-expanded="true"] > .open {
-            display: none;
-          }
-        `}</style>
         <button
           className="navbar-toggler border-0"
           type="button"
@@ -29,8 +27,6 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {/* <span class="fas fa-bars open text-dark"></span> */}
-          {/* <span class="fas fa-times close text-dark"></span> */}
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"

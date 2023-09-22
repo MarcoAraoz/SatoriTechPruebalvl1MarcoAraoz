@@ -9,6 +9,9 @@ const CardDetails = () => {
 
   let api = `https://rickandmortyapi.com/api/character/${id}`;
 
+/* The `useEffect` hook in React is used to perform side effects in functional components. In this
+case, the `useEffect` hook is used to fetch data from an API endpoint specified by the `api`
+variable. */
   useEffect(() => {
     (async function () {
       let data = await fetch(api).then((res) => res.json());

@@ -6,7 +6,12 @@ const Card = ({ page, results }) => {
   let display;
 
   if (results) {
-    display = results.map((x) => {
+    // eslint-disable-next-line react/prop-types
+    /* The code is using the `map` function to iterate over the `results` array and create a new array
+    called `display`. For each element `x` in the `results` array, it is extracting the properties
+    `id`, `image`, `name`, `status`, and `location` using object destructuring. These properties
+    will be used to render the content of each card component. */
+    display = results?.map((x) => {
       let { id, image, name, status, location } = x;
 
       return (

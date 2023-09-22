@@ -17,7 +17,7 @@ const Pagination = ({ pageNumber, info, updatePageNumber }) => {
 
   return (
     <>
-      <style jsx>
+      <style >
         {`
           @media (max-width: 768px) {
             .pagination {
